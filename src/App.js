@@ -42,7 +42,8 @@ export const App = () => {
 
   return (
     <div className="App">
-      <h1 onClick={getData}>Food Searching App</h1>
+      <h1 onClick={getData}>🧀 Goated Foods 🐐</h1>
+
       <form className="search-form" onSubmit={onSubmit}>
         {alert !== '' && <Alert alert={alert} />}
         <input
@@ -57,7 +58,7 @@ export const App = () => {
       <div className="recipes">
         {recipes !== [] &&
           recipes.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
-      </div>
+      </div> 
     </div>
   );
 };
