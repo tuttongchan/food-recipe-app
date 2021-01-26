@@ -67,7 +67,7 @@ h1 {
 .search-form input {
   font-size: 1.6rem;
   border: none;
-  margin: 0 0 0 0.5rem;
+  margin: 0 0.5rem;
   border-radius: 0.5rem;
   height: 3rem;
 }
@@ -183,14 +183,4 @@ h1 {
 .ingredient-weight {
   color: #40b48e;
   font-size: 1.6rem;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 6.5rem;
-  }
-
-  .search-form {
-    width: 52rem;
-  }
 }
