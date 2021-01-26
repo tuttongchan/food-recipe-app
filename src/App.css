@@ -11,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -192,5 +193,25 @@ h1 {
 
   .search-form {
     width: 52rem;
+  }
+}
+
+@media (max-width: 490px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .search-form {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .search-form {
+    width: 30rem;
   }
 }
