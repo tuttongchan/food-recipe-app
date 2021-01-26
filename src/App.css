@@ -184,3 +184,13 @@ h1 {
   color: #40b48e;
   font-size: 1.6rem;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  .search-form {
+    width: 52rem;
+  }
+}
